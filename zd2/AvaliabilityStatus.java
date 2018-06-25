@@ -1,5 +1,3 @@
 enum AvaliabilityStatus{
-	
-	availability, unavailable, blocked, roaming;
-
+	AVAILABILITY, UNAVAILABLE, BLOCKED, ROIMING;
 }

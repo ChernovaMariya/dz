@@ -1,9 +1,9 @@
 
 public class ProductArches implements IProductPart{
-	String productArches;
+	 
+	private String productArches;
 	
 	ProductArches(String productArches){
 		this.productArches = productArches;
 	}
-
 }

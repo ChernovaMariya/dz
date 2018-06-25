@@ -1,8 +1,6 @@
-
 public interface IProduct{
 	
-	void installFirstPart(IProductPart productPart);
-	void installSecondPart(IProductPart productPart);
-	void installThirdPart(IProductPart productPart);
-
+	public void installFirstPart(IProductPart productPart);
+	public void installSecondPart(IProductPart productPart);
+	public void installThirdPart(IProductPart productPart);
 }

@@ -1,9 +1,18 @@
 
 public class AssemblyLine implements IAssemblyLine{
+	
+	private IProductPart productCarcase;
+	private IProductPart productArches;
+	private IProductPart productLenses;
 
-
+	AssemblyLine(ProductCarcase productCarcase, ProductArches productArches, ProductLenses productLenses){
+		this.productCarcase = productCarcase;
+		this.productArches = productArches;
+		this.productLenses = productLenses;
+	}
+	
 	@Override
-	public IProduct assembleProduct(IProduct iProduct) {
+	public IProduct assembleProduct(IProduct iProduct){
 		ProductCarcase carcase = (ProductCarcase) new BuildFirstPart().buildProductPart();
 		iProduct.installFirstPart(carcase);
 		
@@ -17,5 +26,4 @@ public class AssemblyLine implements IAssemblyLine{
 		System.out.println("Очки собраны");
 		return instalation;
 	}
-
 }

@@ -1,10 +1,9 @@
 
 public class ProductLenses implements IProductPart{
 	
-	String productLenses;
+	private String productLenses;
 	
-	ProductLenses(String productLenses) {
+	ProductLenses(String productLenses){
 		this.productLenses = productLenses;
 	}
-
 }

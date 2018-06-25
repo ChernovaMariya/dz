@@ -1,7 +1,6 @@
-class UserAccount extends User {
+class UserAccount extends User{
 
 	UserAccount(){
 		System.out.println("UserAccount");
 	}
-
  }

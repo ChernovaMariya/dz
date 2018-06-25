@@ -1,5 +1,3 @@
-enum MessageStatus {
-	
-	delivered, notDelivered, invalid, censure
-
+enum MessageStatus{
+    DELIVERED, NOTDELIVERED, INVALID, CENSURE;
 }

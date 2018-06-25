@@ -1,18 +1,13 @@
+public class Main{
 
-public class Main {
-
-	public static void main(String[] args) {
-		AssemblyLine eyeglasses = new AssemblyLine();
+	public static void main(String[] args){
 		 
 		ProductCarcase productCarcase = new ProductCarcase("carcase");
 		ProductLenses productLenses = new ProductLenses("lenses");
 		ProductArches productArches = new ProductArches("arches");
 		
-		Eyeglasses instalationProducts = new Eyeglasses(productCarcase, productLenses, productArches);
-		
-		eyeglasses.assembleProduct(instalationProducts);
-		System.out.println();
-
+		AssemblyLine assemblyLine = new AssemblyLine(productCarcase, productArches, productLenses);
+		Eyeglasses eyeglasses = new Eyeglasses(productCarcase, productLenses, productArches);
+		assemblyLine.assembleProduct(eyeglasses);
 	}
-
 }

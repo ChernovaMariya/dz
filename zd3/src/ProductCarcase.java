@@ -1,10 +1,9 @@
 
 public class ProductCarcase implements IProductPart{
 	
-	String productCarcase;
+	private String productCarcase;
 	
 	ProductCarcase(String productCarcase){
 		this.productCarcase = productCarcase;
 	}
-
 }

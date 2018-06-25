@@ -1,6 +1,4 @@
-
-public interface ILineStep {
+public interface ILineStep{
 	
-	IProductPart buildProductPart();
-
+	public IProductPart buildProductPart();
 }

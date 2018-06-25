@@ -1,6 +1,4 @@
-
-public interface IAssemblyLine {
-
-	IProduct assembleProduct(IProduct iProduct);
+public interface IAssemblyLine{
 	
+	public IProduct assembleProduct(IProduct iProduct);
 }

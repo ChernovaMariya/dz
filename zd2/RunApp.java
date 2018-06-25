@@ -1,6 +1,6 @@
-class RunApp {
+class RunApp{
 
-    public static void main(String [] args) {
+    public static void main(String [] args){
         DeliveryMessage deliveryMessage = new DeliveryMessage();
     }
 }

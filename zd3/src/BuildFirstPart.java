@@ -6,6 +6,4 @@ class BuildFirstPart implements ILineStep{
 		System.out.println("корпус создан");
 		return new ProductCarcase("корпус");
 	}
-	
-
 }

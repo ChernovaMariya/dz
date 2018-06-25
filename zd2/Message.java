@@ -7,5 +7,4 @@ class Message{
 	UserAccount userAccount = new UserAccount();
 	CensureMessageValidator censureMessageValidator = new CensureMessageValidator();
 	LengthMessageValidator lengthMessageValidator = new LengthMessageValidator();
-
 }
